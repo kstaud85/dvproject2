@@ -49,18 +49,25 @@ Important tools used for data visualization are pandas,numpy, seaborn,bokeh, and
 Regex is used to clean/scrub the data. 
 
 # IV.Project Explanation
-The following are lines and explanations for each input\
+The following are lines and explanations for each input.
 
-In[17] Import the packages listed above, remove warnings,import the csv file, and view the data. \
-In[18] Check the type of data to make sure it's a dataframe.\
-In[19] Check for any missing values.\
-In[20] Since some values are missing, drop those values.\
-In[21] Now that these values have been dropped, re-check for any missing values just to make sure the data is clean.\
-In[22] View the number of schools by type, using value_counts().\
+In[2] Import the packages listed above, remove warnings,import the csv file, and view the data. \
+In[3] Check the type of data to make sure it's a dataframe.\
+In[5] Check for any missing values.\
+In[6] Since some values are missing, drop those values.\
+In[7] Now that these values have been dropped, re-check for any missing values just to make sure the data is clean.\
+In[8] Change strings to floats (remove: $ ,). Specify the columns that you want to change or not change, as they must be numeric.\
+In[9] View the data once more. Now that it is clean, we can begin to graph.\
+![alt text](https://github.com/kstaud85/dvproject2/blob/master/data1.png)\
+In[10] View the number of schools by type, using value_counts().\
 In[24] Use Seaborn's FacetGrid kdeplot to view univariate density.\
+![alt text](https://github.com/kstaud85/dvproject2/blob/master/graph1.png)\
 In[25] Likewise, use heatmap to view salary correlations. This allows us to see the relationship between starting salary and various mid-career salaries.\
+![alt text](https://github.com/kstaud85/dvproject2/blob/master/heatgraph.png)\
 In[26] Use plt.bar to create a barchart, where the average salarie is plotted against the school type.\
+![alt text](https://github.com/kstaud85/dvproject2/blob/master/barchart.png)\
 In[27] Use bokeh.chart to create a stunning visualization that plots starting salary against school type. 
+![alt text](https://github.com/kstaud85/dvproject2/blob/master/bokeh_plot.png)
 
 # V.Conclusion
 
