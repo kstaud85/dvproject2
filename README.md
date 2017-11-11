@@ -12,10 +12,10 @@ Bokeh plots often are created as an html outfile. A screenshot of the output is 
 1.Readme \
 2.College type csv file (data)\
 3.Jupyter Notebook file (cleaning, plotting, visualizations)\
-4.bokeh_plot.png (bokeh plot)
-5.barchart.png
-6.data1.png (first 5 observations)
-7.heatgraph.png
+4.bokeh_plot.png (bokeh plot)\
+5.barchart.png\
+6.data1.png (first 5 observations)\
+7.heatgraph.png\
 8.graph1.png (kde plot)
 
 # Table of Contents
